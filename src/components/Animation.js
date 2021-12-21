@@ -7,6 +7,7 @@ import mountains_back from '../assets/mountains_behind.png'
 const Animation = () => {
     return(
         <section>
+            <h1>My name is <strong>Dylan.</strong></h1>
             <img src={stars} id="stars"></img>
             <img src={moon} id="moon"></img>
             <img src={mountains_back} id="mountains-back"></img>
