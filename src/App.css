@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -51,13 +52,12 @@
   min-height: 100vh;
   background: linear-gradient(#2b1055, #7597de);
 
-
-
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -135,32 +135,92 @@
   border-radius: 5px;
 }
 
-section {
-  position: relative;
+#section::before {
+  content: '';
+  position:absolute;
+  bottom: 0;
   width: 100%;
-  height: 100vh;
-  padding: 100px;
+  height: 100px;
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 1000;
 }
 
-section h1 {
-  font-size: 10rem;
+.section {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  /* padding: 100px; */
+}
+
+.section h1 {
+  padding-top: 400px;
+  font-size: 7rem;
   color: #fff;
 }
 
-section h1 strong {
+.section h1 strong {
   color: #fef77b;
 }
 
-section img {
+.section img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  /* min-height: 100vh; */
   object-fit: cover;
+  pointer-events: none;
 }
 
-section img#moon {
+.section img#moon {
   mix-blend-mode: screen;
 
+}
+
+.section img#mountains_front {
+  z-index: 111;
+}
+
+.section#text {
+  position: absolute;
+  white-space: nowrap;
+  /* font-size: 7.5 vw;
+  font-size: 1.5em; */
+  z-index: 9;
+}
+
+#btn {
+  text-decoration: none;
+  display: block;
+  max-width: 9rem;
+  margin: auto;
+  transform: translateY(100px);
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5em;
+  z-index: 20;
+}
+
+.description {
+  position:relative;
+  padding: 100px;
+  padding-top: 400px;
+  width: 100%;
+  background: #1c0522;
+}
+
+.description h2 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.description p {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 4rem;
 }

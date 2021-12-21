@@ -5,7 +5,7 @@ const Parallax = () => {
     return(
         <div className='jumbotron'>
             <div className='header'>
-                <a href="#" className='logo'>Hey there <strong>!</strong></a>
+                <a href="/" className='logo'>Hey there <strong>!</strong></a>
                 <ul>
                     <li><a href='#' className='active'>Home</a></li>
                     <li><a href='#'>About</a></li>
