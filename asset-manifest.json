@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.6cd1ef03.css",
-    "main.js": "/portfolio-website/static/js/main.865cceac.js",
-    "static/js/787.9686f49b.chunk.js": "/portfolio-website/static/js/787.9686f49b.chunk.js",
-    "static/media/mountains_front.png": "/portfolio-website/static/media/mountains_front.25a10186b8e276488f43.png",
-    "static/media/mountains_behind.png": "/portfolio-website/static/media/mountains_behind.38e14b5c40238f9f4c60.png",
-    "static/media/recipe.png": "/portfolio-website/static/media/recipe.0e9849565340bce30308.png",
-    "static/media/stars.png": "/portfolio-website/static/media/stars.fb95e3d1302794752cfa.png",
-    "static/media/moon.png": "/portfolio-website/static/media/moon.ab81903c55e2dd21511b.png",
-    "static/media/DylanCheng_Resume.pdf": "/portfolio-website/static/media/DylanCheng_Resume.aa435afcb19352440504.pdf",
-    "static/media/zm1.png": "/portfolio-website/static/media/zm1.6fa078332eb6ea98eae1.png",
-    "static/media/yuki.png": "/portfolio-website/static/media/yuki.9027c66f2c8c9cdafa1e.png",
-    "static/media/logo.svg": "/portfolio-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/portfolio-website/index.html",
-    "main.6cd1ef03.css.map": "/portfolio-website/static/css/main.6cd1ef03.css.map",
-    "main.865cceac.js.map": "/portfolio-website/static/js/main.865cceac.js.map",
-    "787.9686f49b.chunk.js.map": "/portfolio-website/static/js/787.9686f49b.chunk.js.map"
+    "main.css": "/personal-website/static/css/main.6cd1ef03.css",
+    "main.js": "/personal-website/static/js/main.17fcd8aa.js",
+    "static/js/787.3058b895.chunk.js": "/personal-website/static/js/787.3058b895.chunk.js",
+    "static/media/mountains_front.png": "/personal-website/static/media/mountains_front.25a10186b8e276488f43.png",
+    "static/media/mountains_behind.png": "/personal-website/static/media/mountains_behind.38e14b5c40238f9f4c60.png",
+    "static/media/recipe.png": "/personal-website/static/media/recipe.0e9849565340bce30308.png",
+    "static/media/stars.png": "/personal-website/static/media/stars.fb95e3d1302794752cfa.png",
+    "static/media/moon.png": "/personal-website/static/media/moon.ab81903c55e2dd21511b.png",
+    "static/media/DylanCheng_Resume.pdf": "/personal-website/static/media/DylanCheng_Resume.aa435afcb19352440504.pdf",
+    "static/media/zm1.png": "/personal-website/static/media/zm1.6fa078332eb6ea98eae1.png",
+    "static/media/yuki.png": "/personal-website/static/media/yuki.9027c66f2c8c9cdafa1e.png",
+    "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/personal-website/index.html",
+    "main.6cd1ef03.css.map": "/personal-website/static/css/main.6cd1ef03.css.map",
+    "main.17fcd8aa.js.map": "/personal-website/static/js/main.17fcd8aa.js.map",
+    "787.3058b895.chunk.js.map": "/personal-website/static/js/787.3058b895.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cd1ef03.css",
-    "static/js/main.865cceac.js"
+    "static/js/main.17fcd8aa.js"
   ]
 }
