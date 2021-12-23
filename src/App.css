@@ -410,14 +410,16 @@ iframe {
 
 @media only screen and (max-width: 600px) {
   .section h1 {
-    padding-top: 24.375rem;
-    font-size: 3.5rem;
+    padding-top: 31.375rem;
+    font-size: 2.5rem;
     margin-bottom: 15rem;
     color: #fff;
   }
 
   #btn {
     position: absolute;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     left: 40vw;
     bottom: 13rem;
   }
@@ -445,12 +447,14 @@ iframe {
 }
 
 .header ul li {
-  margin-left: 0.1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
   min-width: 0;
 }
 
 .header ul li a {
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.2rem;
 }
 
 .description {
@@ -522,5 +526,116 @@ p.project-link {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
+  .section h1 {
+    padding-top: 50.375rem;
+    font-size: 5rem;
+    margin-bottom: 7rem;
+    color: #fff;
+  }
 
+  #btn {
+    position: absolute;
+    left: 40vw;
+    bottom: 20rem;
+  }
+
+  .header {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+  .header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header .logo strong {
+  font-size: 2.5rem;
+}
+
+.header ul {
+  flex-wrap: wrap;
+}
+
+.header ul li {
+  margin-left: 0.1rem;
+  margin-bottom: 0.8rem;
+  min-width: 0;
+}
+
+.header ul li a {
+  padding: 0.4rem 0.8rem;
+}
+
+.description {
+  position: relative;
+  padding: 37rem 5rem;
+  width: 100%;
+  background: #1c0522;
+}
+
+.description h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: #fff;
+  /* padding: 25rem 10rem; */
+}
+
+.description p {
+  margin-top: 0;
+  font-size: 1.725rem;
+  color: #fff;
+  line-height: 3rem;
+  /* padding: 25rem 10rem; */
+}
+
+.gallery {
+  position: relative;
+  padding: 23rem 5rem;
+  width: 100%;
+}
+
+.gallery h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.gallery .project {
+  margin: 0 auto;
+  width: 120%;
+  margin-top: 5rem;
+  margin-bottom: 17rem;
+  border-radius: 15px;
+}
+
+.gallery .project-title {
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-bottom: 1.4rem;
+  font-size: 1.725rem;
+}
+
+.gallery .project-img {
+  max-width: 80%;
+  border-radius: 15px;
+  height: auto;
+  transition: all 0.8 ease;
+}
+
+.gallery .project-text, .gallery .project-github, .gallery .project-link {
+  font-size: 1.325rem;
+  max-width: 80%;
+  line-height: 2.5rem;
+}
+
+p.project-link {
+  margin-top: 1rem;
+  font-weight: 400;
+}
 }
