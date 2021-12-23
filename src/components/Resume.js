@@ -5,7 +5,7 @@ import Contact from './Contact'
 
 const Resume = () => {
     return(
-        <>
+        <div className="contact-page">
             <div className='header'>
                 <a href="/" className='logo'>back home<strong>!</strong></a>
                 <ul>
@@ -26,7 +26,7 @@ const Resume = () => {
                 </div>
             </div>
             <Contact/>
-        </>
+        </div>
         
     );
 }
