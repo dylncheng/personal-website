@@ -311,11 +311,24 @@
   max-width: 60%;
   border-radius: 15px;
   height: auto;
+  transition: all 0.8 ease;
+}
+
+.gallery .project-img:hover {
+  opacity: 0.8;
 }
 
 .gallery a {
   text-decoration: none;
   color: #fef77b;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.gallery a:hover {
+  text-decoration: none;
+  font-size: larger;
+  color: #faf5a1;
   font-weight: 700;
 }
 

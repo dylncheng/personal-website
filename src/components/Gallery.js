@@ -37,11 +37,11 @@ const Gallery = () => {
                 // </div>
                 <div className="project">
                     <h3 className="project-title">{project.name}</h3>
-                    <img className="project-img" src={project.image}></img>
+                    <a href={project.link===""?project.github:project.link} target="_blank"><img className="project-img" src={project.image}></img></a>
                     <div className="project-description">
                         <p className="project-text">{project.description}</p>
-                        <p className="project-github"><a href={project.github}>{project.github===""?"":"github"}</a></p>
-                        <p className="project-link"><a href={project.link}>{project.link===""?"":"website"}</a></p>
+                        <p className="project-github"><a href={project.github} target="_blank">{project.github===""?"":"github"}</a></p>
+                        <p className="project-link"><a href={project.link} target="_blank">{project.link===""?"":"website"}</a></p>
                     </div>
                     
                 </div>
