@@ -19,6 +19,8 @@ const Resume = () => {
                     {/* <object width="200" height="600" type="application/pdf" data={resume_pdf}>
                     <p>PDF cannot be displayed.</p>
                     </object> */}
+                    <p className="mobile-enabled">Resume cannot be displayed:</p>
+                    <a href={resume_pdf} className="mobile-enabled">Link to pdf</a>
                     <iframe src={resume_pdf} width="60%" height="800px">
                     </iframe>
                 </div>

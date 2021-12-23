@@ -404,7 +404,10 @@ iframe {
   top: 17rem;
   left: 10rem;
   color: #fff;
-  font-size: 3rem;
+}
+  
+.mobile-enabled {
+  display: none;
 }
 
 
@@ -523,6 +526,30 @@ p.project-link {
   font-weight: 400;
 }
 
+iframe {
+  display: none;
+}
+
+.mobile-enabled {
+  display: block;
+}
+
+.mobile-enabled {
+  display: block;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+}
+
+p.mobile-enabled {
+  color:#fff;
+  font-weight: 500;
+}
+
+a.mobile-enabled {
+  color:#faf5a1
+}
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -638,4 +665,30 @@ p.project-link {
   margin-top: 1rem;
   font-weight: 400;
 }
+
+iframe {
+  display: none;
+}
+
+.mobile-enabled {
+  display: block;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+}
+
+p.mobile-enabled {
+  color:#fff;
+  font-weight: 500;
+}
+
+a.mobile-enabled {
+  color:#faf5a1
+}
+
+}
+
+@media only screen and (min-width: 816px) and (max-width: 1047px) {
+
+
 }
