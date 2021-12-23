@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import Landing from './components/Landing'
+import Resume from './components/Resume'
 import {Routes, Route, Link} from 'react-router-dom'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         {/* <Resume/> */}
       {/* </Route> */} 
       <Route path="/" exact element={<Landing/>}/>
+      <Route path="/resume" element={<Resume/>}/>
     
       {/* <Route path="/test"> */}
          {/* <Test/> */}

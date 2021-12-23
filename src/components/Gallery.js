@@ -25,12 +25,28 @@ const Gallery = () => {
             <div className="projects" style={{transform:`translateY(${1100 + offsetY * -0.5}px)`, opacity:`${opacity}`}}>
                 {data.projects.map(project => {
                     return(
+                // <div className="project card bg-dark text-white">
+                //     <h3 className="card-title">{project.name}</h3>
+                //     <img className="card-img" src={project.image}></img>
+                //     <div className="card-img-overlay">
+                //         <p className="card-text">{project.description}</p>
+                //         <p className="card-text">{project.github}</p>
+                //         <p className="card-text">{project.link}</p>
+                //     </div>
+                    
+                // </div>
                 <div className="project">
-                    <h3>{project.name}</h3>
-                    <p>{project.description}</p>
-                    <p>{project.github}</p>
-                    <p>{project.link}</p>
-                </div>);
+                    <h3 className="project-title">{project.name}</h3>
+                    <img className="project-img" src={project.image}></img>
+                    <div className="project-description">
+                        <p className="project-text">{project.description}</p>
+                        <p className="project-github"><a href={project.github}>{project.github===""?"":"github"}</a></p>
+                        <p className="project-link"><a href={project.link}>{project.link===""?"":"website"}</a></p>
+                    </div>
+                    
+                </div>
+                
+                );
             
         })}
             </div>
