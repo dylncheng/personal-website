@@ -411,8 +411,15 @@ iframe {
 @media only screen and (max-width: 600px) {
   .section h1 {
     padding-top: 34.375rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    margin-bottom: 15rem;
     color: #fff;
+  }
+
+  #btn {
+    position: absolute;
+    left: 40vw;
+    bottom: 10rem;
   }
 
   .header {
