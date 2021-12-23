@@ -26,10 +26,10 @@ const Animation = () => {
     return(
         <>
             <div className='section' id="section">
-                <img src={stars} id="stars" style={{transform: `translateY(${offsetX * 0.5}px)`}, {transform: `translateX(${offsetX * 0.25}px)`}}></img>
-                <img src={moon} id="moon" style={{transform: `translateY(${offsetX * 0.25}px)`}}></img>
+                <img src={stars} id="stars" style={{transform: `translateY(${offsetX * 0.7}px)`}, {transform: `translateX(${offsetX * 0.25}px)`}}></img>
+                <img src={moon} id="moon" style={{transform: `translateY(${offsetX * 0.75}px)`}}></img>
                 <img src={mountains_back} id="mountains-back"></img>
-                <h1 id="text" style={{ transform: `translateX(${offsetX * 3}px)` }}>My name is <strong>Dylan.</strong></h1>
+                <h1 id="text" style={{ transform: `translateX(${1070-(offsetX * 3)}px)` }}>My name is <strong>Dylan.</strong></h1>
                 <a href="#description" id="btn">Explore</a>
                 <img src={mountains_front} id="mountains-front"></img>
             </div>

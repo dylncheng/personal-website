@@ -11,6 +11,7 @@ function App() {
         {/* <Resume/> */}
       {/* </Route> */} 
       <Route path="/" exact element={<Landing/>}/>
+    
       {/* <Route path="/test"> */}
          {/* <Test/> */}
       {/* </Route> */}
