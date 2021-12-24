@@ -333,6 +333,14 @@
   font-weight: 700;
 }
 
+.inline-links p{
+  display: inline;
+}
+
+.inline-links p.divider {
+  font-size: 0.9rem;
+}
+
 #gallery::before {
   content: '';
   position: absolute;
@@ -497,11 +505,12 @@ iframe {
   font-size: 2rem;
   margin-bottom: 0.6rem;
   color: #fff;
+  text-align: center;
 }
 
 .gallery .project {
   margin: 0 auto;
-  width: 120%;
+  width: 115%;
   margin-bottom: 8rem;
   border-radius: 15px;
 }
@@ -511,6 +520,8 @@ iframe {
   text-transform: lowercase;
   margin-bottom: 1.8rem;
   font-size: 1rem;
+  max-width: 90%;
+  text-align: center;
 }
 
 .gallery .project-img {
@@ -524,6 +535,7 @@ iframe {
   font-size: 1rem;
   max-width: 90%;
   line-height: normal;
+  text-align: center;
 }
 
 p.project-link {
@@ -636,11 +648,12 @@ a.mobile-enabled {
   font-size: 3rem;
   margin-bottom: 0;
   color: #fff;
+  text-align: center;
 }
 
 .gallery .project {
   margin: 0 auto;
-  width: 120%;
+  width: 130%;
   margin-top: 5rem;
   margin-bottom: 17rem;
   border-radius: 15px;
@@ -651,6 +664,8 @@ a.mobile-enabled {
   text-transform: lowercase;
   margin-bottom: 1.4rem;
   font-size: 1.725rem;
+  max-width: 80%;
+  text-align: center;
 }
 
 .gallery .project-img {
@@ -663,7 +678,8 @@ a.mobile-enabled {
 .gallery .project-text, .gallery .project-github, .gallery .project-link {
   font-size: 1.325rem;
   max-width: 80%;
-  line-height: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
 }
 
 p.project-link {

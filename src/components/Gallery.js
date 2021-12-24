@@ -40,8 +40,12 @@ const Gallery = () => {
                     <a href={project.link===""?project.github:project.link} target="_blank"><img className="project-img" src={project.image}></img></a>
                     <div className="project-description">
                         <p className="project-text">{project.description}</p>
-                        <p className="project-github"><a href={project.github} target="_blank">{project.github===""?"":"github"}</a></p>
-                        <p className="project-link"><a href={project.link} target="_blank">{project.link===""?"":"website"}</a></p>
+                        <div className="inline-links">
+                            <p className="project-github"><a href={project.github} target="_blank">{project.github===""?"":"github"}</a></p>
+                            
+                            <p className="divider"> {(project.github !="" && project.link != "")?"| ":""}</p>
+                            <p className="project-link"><a href={project.link} target="_blank">{project.link===""?"":"website"}</a></p>
+                        </div>
                     </div>
                     
                 </div>
