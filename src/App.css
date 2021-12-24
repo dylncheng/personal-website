@@ -335,6 +335,7 @@
 
 .inline-links p{
   display: inline;
+  max-width: 60%;
 }
 
 .inline-links p.divider {
@@ -543,6 +544,11 @@ p.project-link {
   font-weight: 400;
 }
 
+.inline-links {
+  text-align: center;
+  max-width: 90%;
+}
+
 iframe {
   display: none;
 }
@@ -685,6 +691,11 @@ a.mobile-enabled {
 p.project-link {
   margin-top: 1rem;
   font-weight: 400;
+}
+
+.inline-links {
+  text-align: center;
+  max-width: 80%;
 }
 
 iframe {
