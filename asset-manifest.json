@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7fcf08af.css",
-    "main.js": "/static/js/main.371b96e5.js",
+    "main.js": "/static/js/main.204753cd.js",
     "static/js/787.3058b895.chunk.js": "/static/js/787.3058b895.chunk.js",
     "static/media/mountains_front.png": "/static/media/mountains_front.25a10186b8e276488f43.png",
     "static/media/spacestagram-landing.png": "/static/media/spacestagram-landing.3481e9329e20203984dc.png",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.7fcf08af.css.map": "/static/css/main.7fcf08af.css.map",
-    "main.371b96e5.js.map": "/static/js/main.371b96e5.js.map",
+    "main.204753cd.js.map": "/static/js/main.204753cd.js.map",
     "787.3058b895.chunk.js.map": "/static/js/787.3058b895.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fcf08af.css",
-    "static/js/main.371b96e5.js"
+    "static/js/main.204753cd.js"
   ]
 }
