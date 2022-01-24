@@ -1,9 +1,17 @@
 import zm1 from './assets/zm1.png'
 import yuki from './assets/yuki.png'
 import recipe from './assets/recipe.png'
+import spacestagram from './assets/spacestagram-landing.png'
 
 let data = {
     projects:  [
+        {
+            name: "Spacestagram",
+            description: "A mock social media platform created using the NASA Mars Rover API",
+            image: spacestagram,
+            github:"https://github.com/dylncheng/spacestagram",
+            link: "https://dylncheng.github.io/spacestagram/"
+        },
         {
             name: "Yuki Weather App",
             description: "A weather app created with the purpose of being minimalistic and accessible. ",
